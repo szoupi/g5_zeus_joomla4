@@ -1,0 +1,25 @@
+
+.sz-floating-banner{
+
+    @include breakpoint(mobile-only) {
+		padding: 0.25;
+    }
+
+    z-index: 10000000;
+	position: fixed;
+
+	//default values, particle may overide them
+	background-color: $black; 
+	color: $white;
+
+	padding: 1rem;
+
+
+	
+}
+
+
+.shadow {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.4);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
